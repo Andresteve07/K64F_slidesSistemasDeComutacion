@@ -30,7 +30,7 @@
 				</section>
 
 				<section>
-					<section>
+					<section data-background="imgs/maxresdefault_dif.jpg">
 						<h3>Hardware Specs</h3>
 					</section>
 					<section>
@@ -44,7 +44,7 @@
 					<section>
 						<h4>Periferals</h4>
 						<ul>
-							<li>3-axis accelerometer and 3-axis magnetometer</li>
+							<li>accelerometer and magnetometer</li>
 							<li>RGB LED</li>
 							<li>[reset-pushbutton]</li>
 							<li>[pushbuttons] x 2</li>
@@ -87,7 +87,7 @@
 					</section>
 				</section>
 				<section>
-					<section>
+					<section  data-background="imgs/kinetis_graphic_esc_dif.jpg">
 						<h3>KDS</h3>
 						<p>
 						Kinetis® Design Studio.
@@ -109,18 +109,9 @@
 								<pre>
 									<code class="hljs" data-trim contenteditable>
 										function linkify( selector ) {
-										  if( supports3DTransforms ) {
-
-										    var nodes = document.querySelectorAll( selector );
-
-										    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-										      var node = nodes[i];
-
 										      if( !node.className ) {
 										        node.className += ' roll';
 										      }
-										    }
-										  }
 										}
 									</code>
 								</pre>
@@ -130,11 +121,24 @@
 					
 				</section>
 
-				<section>
-					<h3>mbed</h3>
-					<p>
-					ARM mbed IoT Device Platform provides the operating system, cloud services, tools and developer ecosystem to make the creation and deployment of commercial, standards-based IoT solutions possible at scale.
-					</p>
+				<section >
+					<section data-background="imgs/maxresdefault_lg_dif.jpg">
+						<h3>mbed</h3>
+						<p>
+						ARM mbed IoT Device Platform provides the operating system, cloud services, tools and developer ecosystem to make the creation and deployment of commercial, standards-based IoT solutions possible at scale.
+						</p>	
+					</section>
+					<section>
+						<h5>Instalation Recipe</h5>
+						<ol>
+							<li>register user on <a href="http://mbed.com">mbed.com</a> </li>
+							<li>Developer->Compiler</li>
+							<li>Open Project</li>
+							<li>Compile</li>
+							<li>Copy generated .bin file to mbed device</li>
+							<li>Open serial terminal (/dev/tty/ACM0)</li>
+						</ol>
+					</section>
 				</section>
 
 			</div>
